@@ -62,6 +62,8 @@ def organize_file_system(directory):
             display_file_system_tree(file_system_tree)
             input("Press Enter to continue...")
         elif choice == "2" or choice == "c":
+            if "script" in locals():
+                print(script)
             script = create_cleaning_script(file_system_tree)
             print(f"\n==================\nCleaning script:\n{script}\n==================\n")
             input("Press Enter to continue...")
