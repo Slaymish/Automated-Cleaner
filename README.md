@@ -22,6 +22,7 @@ This repository contains an automated cleaning script that helps organize and cl
 git clone github.com/Slaymish/Automated-Cleaner
 cd Automated-Cleaner/
 ./install
+source venv/bin/activate
 python3 AutomatedCleaner.py
 ```
 
