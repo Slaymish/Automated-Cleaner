@@ -2,6 +2,9 @@
 
 This repository contains an automated cleaning script that helps organize and clean up your file system. The script interacts with the user to create a customized cleaning script based on their preferences and executes it to organize files and directories.
 
+<img width="451" alt="image" src="https://github.com/Slaymish/Automated-Cleaner/assets/21288505/8ce55214-e4ab-4ba7-b92f-80406a1f27fd">
+
+
 ## Features
 
 - Displays the current file system tree
@@ -22,6 +25,7 @@ This repository contains an automated cleaning script that helps organize and cl
 git clone github.com/Slaymish/Automated-Cleaner
 cd Automated-Cleaner/
 ./install
+source venv/bin/activate
 python3 AutomatedCleaner.py
 ```
 
